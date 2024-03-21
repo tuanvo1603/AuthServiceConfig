@@ -9,7 +9,7 @@ spring:
   datasource:
     url: jdbc:mysql://localhost:3306/auth-service
     username: root
-    password: df38097b1aec659ee5529fc39aeb448fd360e7702e3a802e33765b25be6413ac
+    password: {cipher} df38097b1aec659ee5529fc39aeb448fd360e7702e3a802e33765b25be6413ac
 
 #Jpa
   jpa:
